@@ -1,9 +1,12 @@
-import './App.scss'
+import './_app.scss'
+import Navigation from './Components/Navigation/Navigation'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
     <main className="App">
-      <h1>Hello world</h1>
+      <Navigation />
+      <Footer />
     </main>
   )
 }
