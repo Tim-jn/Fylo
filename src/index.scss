@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/* ===== Breakpoints ===== */
+
+$mobile-size: 375px;
+$desktop-size: 1440px;
+
+/* ===== Colors ===== */
+
+// Primary
+
+$intro-email-bg-color: hsl(217, 28%, 15%);
+$main-bg-color: hsl(218, 28%, 13%);
+$footer-bg-color: hsl(216, 53%, 9%);
+$testimonials-bg-color: hsl(219, 30%, 18%);
+
+// Accent
+
+$cyan-gradient: hsl(176, 68%, 64%);
+$blue-gradient: hsl(198, 60%, 50%);
+$error-color: hsl(0, 100%, 63%);
+
+// Neutral
+
+$white: hsl(0, 0%, 100%);
+
+/* ===== Typography ===== */
+
+// Body
+
+$body-font-size: 14px;
+$primary-font-fam: 'Open Sans', sans-serif;
+
+// Headings, Call-to-actions, Header Navigation
+
+$secondary-font-fam: 'Raleway', sans-serif;
+
+$font-weight-light: 400;
+$font-weight-bold: 700;
