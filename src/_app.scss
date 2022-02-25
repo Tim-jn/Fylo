@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
   cursor: default;
+  list-style-type: none;
 }
 
 body {
   background: url(./assets/bg-curvy-desktop.svg) no-repeat 100%;
   background-color: $main-bg-color;
   color: $white;
+  font-family: $primary-font-fam;
 }
