@@ -1,0 +1,69 @@
+@import '../../index';
+
+.form-footer {
+  background: $intro-email-bg-color;
+  width: 60%;
+  height: 280px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $secondary-font-fam;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 320px;
+  box-shadow: 4px 4px 12px -2px hsl(217, 29%, 9%);
+}
+
+.form-title {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.form-text {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.form-footer-content {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-footer-input {
+  width: 58%;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+  cursor: text;
+  padding-left: 5%;
+}
+
+.form-footer-input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(170, 170, 170, 0.664);
+}
+
+.form-footer-button {
+  width: 33%;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+  color: $white;
+  background: linear-gradient(to right, $cyan-gradient, $blue-gradient);
+  font-weight: $font-weight-bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-footer-button:hover {
+  filter: brightness(1.05);
+}

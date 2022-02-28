@@ -11,10 +11,12 @@ import {
   faTwitter,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
+import FormFooter from '../FormFooter/FormFooter'
 
 export default function Footer() {
   return (
     <footer className="footer">
+      <FormFooter />
       <div className="footer-content">
         <div className="footer-logo-content">
           <img src={logo} alt="Fylo Icon" className="footer-logo" />
