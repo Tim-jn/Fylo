@@ -6,6 +6,11 @@ import {
   faPhone,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
   return (
@@ -50,9 +55,15 @@ export default function Footer() {
             <li className="info-link">Privacy</li>
           </ul>
           <div className="footer-icons">
-            <div className="footer-icon facebook"></div>
-            <div className="footer-icon twitter"></div>
-            <div className="footer-icon instagram"></div>
+            <div className="footer-icon facebook">
+              <FontAwesomeIcon icon={faFacebookF} />
+            </div>
+            <div className="footer-icon twitter">
+              <FontAwesomeIcon icon={faTwitter} />
+            </div>
+            <div className="footer-icon instagram">
+              <FontAwesomeIcon icon={faInstagram} />
+            </div>
           </div>
         </div>
       </div>
