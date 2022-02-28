@@ -12,4 +12,68 @@ body {
   background-color: $main-bg-color;
   color: $white;
   font-family: $primary-font-fam;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-img {
+  width: 720px;
+  height: 534px;
+}
+
+.intro-title {
+  margin-top: 30px;
+  font-family: $secondary-font-fam;
+  font-size: 40px;
+  max-width: 50%;
+  text-align: center;
+  line-height: 60px;
+}
+
+.intro-description {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 35%;
+  text-align: center;
+  line-height: 28px;
+}
+
+.start-button {
+  width: 240px;
+  height: 55px;
+  border-radius: 30px;
+  border: none;
+  color: $white;
+  background: linear-gradient(to right, $cyan-gradient, $blue-gradient);
+  font-weight: $font-weight-bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  filter: brightness(1.05);
+}
+
+.user-reviews {
+  margin-bottom: 300px;
+}
+
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
+  justify-content: center;
+  width: 62%;
+  margin: auto;
+  margin-top: 200px;
 }

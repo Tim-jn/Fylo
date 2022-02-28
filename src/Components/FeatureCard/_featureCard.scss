@@ -1,0 +1,11 @@
+@import '../../index';
+
+.feature-card {
+  text-align: center;
+}
+
+.feature-image {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
