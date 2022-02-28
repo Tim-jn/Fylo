@@ -7,6 +7,8 @@ import iconAccessAnywhere from './assets/icon-access-anywhere.svg'
 import iconSecurity from './assets/icon-security.svg'
 import iconCollaboration from './assets/icon-collaboration.svg'
 import iconAnyFile from './assets/icon-any-file.svg'
+import illustrationCompany from './assets/illustration-stay-productive.png'
+import arrowIcon from './assets/icon-arrow.svg'
 
 function App() {
   return (
@@ -51,6 +53,30 @@ function App() {
           title="Store any type of file"
           description="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared. "
         />
+      </section>
+      <section className="company-infos">
+        <img
+          src={illustrationCompany}
+          alt="Company"
+          className="company-image"
+        />
+        <div className="company-infos-text">
+          <h3 className="company-title">Stay productive, wherever you are</h3>
+          <p className="company-description">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+            <br />
+            <br />
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
+            <br />
+            <br />
+            <span className="company-link">
+              See how Fylo works
+              <img src={arrowIcon} alt="Arrow Icon" className="arrow-icon" />
+            </span>
+          </p>
+        </div>
       </section>
       <section id="team" className="team"></section>
       <section id="signin" className="user-reviews"></section>
