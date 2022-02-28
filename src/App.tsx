@@ -30,7 +30,7 @@ function App() {
           Get Started
         </button>
       </section>
-      <section className="features-section">
+      <section id="features" className="features-section">
         <FeatureCard
           icon={iconAccessAnywhere}
           title="Access your files, anywhere"
@@ -52,7 +52,8 @@ function App() {
           description="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared. "
         />
       </section>
-      <section className="user-reviews"></section>
+      <section id="team" className="team"></section>
+      <section id="signin" className="user-reviews"></section>
       <Footer />
     </main>
   )

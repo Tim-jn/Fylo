@@ -9,9 +9,11 @@ export default function Navigation() {
       </div>
       <nav className="header-navigation">
         <ul className="nav-links">
-          <li className="nav-link">Features</li>
-          <li className="nav-link">Team</li>
-          <li className="nav-link">Sign In</li>
+          <li className="nav-link">
+            <a href="#features">Features</a>
+          </li>
+          <li className="nav-link"><a href="#team">Team</a></li>
+          <li className="nav-link"><a href="#signin">Sign In</a></li>
         </ul>
       </nav>
     </header>

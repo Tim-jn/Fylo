@@ -10,7 +10,7 @@ export default function FeatureCard({ icon, title, description }: Props) {
   return (
     <div className="feature-card">
       <img src={icon} alt="Feature Icon" className="feature-image" />
-      <h3 className="feature-title">{title}</h3>
+      <h2 className="feature-title">{title}</h2>
       <p className="feature-description">{description}</p>
     </div>
   )
