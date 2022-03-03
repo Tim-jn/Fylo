@@ -102,7 +102,6 @@ function App() {
           job="Founder & CEO, Huddle"
         />
       </section>
-      <section id="signin" className="user-reviews"></section>
       <Footer />
     </main>
   )

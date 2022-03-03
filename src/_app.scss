@@ -61,10 +61,6 @@ body {
   filter: brightness(1.05);
 }
 
-.user-reviews {
-  margin-bottom: 300px;
-}
-
 .features-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -143,7 +139,7 @@ body {
 .team {
   display: flex;
   justify-content: space-evenly;
-  margin: 180px 90px;
+  margin: 180px 90px 400px 90px;
   position: relative;
 }
 
