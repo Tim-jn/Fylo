@@ -9,6 +9,10 @@ import iconCollaboration from './assets/icon-collaboration.svg'
 import iconAnyFile from './assets/icon-any-file.svg'
 import illustrationCompany from './assets/illustration-stay-productive.png'
 import arrowIcon from './assets/icon-arrow.svg'
+import ReviewCard from './Components/ReviewCard/ReviewCard'
+import profile1 from './assets/profile-1.jpg'
+import profile2 from './assets/profile-2.jpg'
+import profile3 from './assets/profile-3.jpg'
 
 function App() {
   return (
@@ -78,7 +82,26 @@ function App() {
           </p>
         </div>
       </section>
-      <section id="team" className="team"></section>
+      <section id="team" className="team">
+        <ReviewCard
+          text="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+          image={profile1}
+          name="Satish Patel"
+          job="Founder & CEO, Huddle"
+        />
+        <ReviewCard
+          text="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+          image={profile2}
+          name="Bruce McKenzie"
+          job="Founder & CEO, Huddle"
+        />
+        <ReviewCard
+          text="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+          image={profile3}
+          name="Iva Boyd"
+          job="Founder & CEO, Huddle"
+        />
+      </section>
       <section id="signin" className="user-reviews"></section>
       <Footer />
     </main>

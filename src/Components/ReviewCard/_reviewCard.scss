@@ -1,0 +1,47 @@
+@import '../../index';
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+  background: $intro-email-bg-color;
+  padding: 35px 20px 25px 20px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 12px -2px hsl(217, 29%, 9%);
+}
+
+.review-text {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 13.5px;
+  line-height: 20px;
+}
+
+.team-image {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.team-profile {
+  display: flex;
+  margin-top: 20px;
+}
+
+.team-profile-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+}
+
+.team-name {
+  font-size: 10px;
+  font-family: $secondary-font-fam;
+  letter-spacing: 1px;
+}
+
+.team-job {
+  font-size: 8px;
+  color: rgba(221, 221, 221, 0.842);
+  margin-top: 2px;
+}
