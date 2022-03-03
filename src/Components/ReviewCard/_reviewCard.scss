@@ -12,9 +12,11 @@
 
 .review-text {
   font-weight: 400;
+  font-family: $secondary-font-fam;
   letter-spacing: 1px;
   font-size: 13.5px;
   line-height: 20px;
+  color: rgba(255, 255, 255, 0.795);
 }
 
 .team-image {
@@ -25,7 +27,7 @@
 
 .team-profile {
   display: flex;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .team-profile-text {
