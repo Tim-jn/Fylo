@@ -10,7 +10,7 @@ export default function FormFooter() {
   }
 
   return (
-    <div className="form-footer">
+    <div id="signin" className="form-footer">
       <h2 className="form-title">Get early access today</h2>
       <p className="form-text">
         It only takes a minute to sign up and our free tier is extremely
