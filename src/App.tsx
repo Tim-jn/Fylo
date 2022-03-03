@@ -18,24 +18,26 @@ function App() {
   return (
     <main className="App">
       <Navigation />
-      <section className="intro-section">
-        <img
-          src={illustrationIntro}
-          alt="Intro illustration"
-          className="intro-img"
-        />
-        <h1 className="intro-title">
-          All your files in one secure location, accessible anywhere.
-        </h1>
-        <p className="intro-description">
-          Fylo stores all your most important files in one secure location.
-          Access them wherever you need, share and collaborate with friends,
-          family, and co-workers.
-        </p>
-        <button type="button" className="start-button">
-          Get Started
-        </button>
-      </section>
+      <div className="intro-section-bg">
+        <section className="intro-section">
+          <img
+            src={illustrationIntro}
+            alt="Intro illustration"
+            className="intro-img"
+          />
+          <h1 className="intro-title">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p className="intro-description">
+            Fylo stores all your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.
+          </p>
+          <button type="button" className="start-button">
+            Get Started
+          </button>
+        </section>
+      </div>
       <section id="features" className="features-section">
         <FeatureCard
           icon={iconAccessAnywhere}

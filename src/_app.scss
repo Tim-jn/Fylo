@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: $intro-email-bg-color;
+  background-color: $main-bg-color;
   color: $white;
   font-family: $primary-font-fam;
   height: 100vh;
@@ -16,11 +16,30 @@ body {
   flex-direction: column;
 }
 
+.intro-section-bg {
+  background-color: $intro-email-bg-color;
+}
+
 .intro-section {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 185px;
+  position: relative;
+  z-index: 1;
+}
+
+.intro-section::after {
+  content: url('./assets/bg-curvy-desktop.svg');
+  position: absolute;
+  bottom: -140px;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .intro-img {
@@ -67,10 +86,11 @@ body {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 100px;
   grid-row-gap: 50px;
-  justify-content: center;
   width: 62%;
   margin: auto;
-  margin-top: 185px;
+  position: relative;
+  z-index: 3;
+  padding-top: 50px;
 }
 
 .company-infos {
@@ -139,7 +159,7 @@ body {
 .team {
   display: flex;
   justify-content: space-evenly;
-  margin: 180px 90px 400px 90px;
+  margin: 220px 90px 400px 90px;
   position: relative;
 }
 
