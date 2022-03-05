@@ -13,6 +13,7 @@ import ReviewCard from './Components/ReviewCard/ReviewCard'
 import profile1 from './assets/profile-1.jpg'
 import profile2 from './assets/profile-2.jpg'
 import profile3 from './assets/profile-3.jpg'
+import curvyBg from './assets/bg-curvy-desktop.svg'
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           <button type="button" className="start-button">
             Get Started
           </button>
+          <div className="background-curvy">
+            <img src={curvyBg} alt="Background curvy" />
+          </div>
         </section>
       </div>
       <section id="features" className="features-section">

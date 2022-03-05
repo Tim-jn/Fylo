@@ -68,3 +68,15 @@
 .form-footer-button:hover {
   filter: brightness(1.05);
 }
+
+// small screen desktop
+
+@media screen and (max-width: 1200px) {
+  .form-footer-input {
+    width: 50%;
+  }
+
+  .form-footer-button {
+    width: 41%;
+  }
+}
