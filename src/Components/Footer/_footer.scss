@@ -111,10 +111,38 @@ footer {
   .footer {
     height: 520px;
   }
+
+  .footer-logo-content {
+    width: 100px;
+    height: 30px;
+  }
 }
 
 // mobile
 
 @media screen and (max-width: 768px) {
+  .location-content {
+    max-width: 100%;
+  }
 
+  .footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .infos {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer {
+    height: 750px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
 }

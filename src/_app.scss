@@ -267,3 +267,49 @@ body {
     top: 10px;
   }
 }
+
+// mobile
+
+@media screen and (max-width: 768px) {
+  .intro-img {
+    width: 370px;
+    height: 274px;
+  }
+
+  .intro-title {
+    max-width: 90%;
+  }
+
+  .intro-description {
+    width: 90%;
+  }
+
+  .features-section {
+    grid-template-columns: inherit;
+    width: 90%;
+  }
+
+  .company-infos {
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .team {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .team::before {
+    left: 20px;
+    top: 10px;
+  }
+
+  .background-curvy {
+    bottom: -10px;
+  }
+
+  .background-curvy img {
+    height: 250px;
+  }
+}
