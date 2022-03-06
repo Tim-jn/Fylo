@@ -80,3 +80,12 @@
     width: 41%;
   }
 }
+
+// tablet 
+
+@media screen and (max-width: 992px) {
+  .form-footer {
+    width: 80%;
+    bottom: 420px;
+  }
+}

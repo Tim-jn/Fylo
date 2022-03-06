@@ -24,6 +24,13 @@ footer {
   margin-top: 50px;
 }
 
+.footer-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 .footer-logo-content {
   width: 141px;
   height: 42px;
@@ -83,4 +90,31 @@ footer {
 .footer-icon:hover {
   border: 1px solid $cyan-gradient;
   color: $cyan-gradient;
+}
+
+// tablet
+
+@media screen and (max-width: 992px) {
+  .infos {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .footer-links {
+    width: 100%;
+  }
+
+  .location-content {
+    max-width: 60%;
+  }
+
+  .footer {
+    height: 520px;
+  }
+}
+
+// mobile
+
+@media screen and (max-width: 768px) {
+
 }

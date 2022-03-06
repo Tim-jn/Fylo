@@ -58,3 +58,11 @@ a {
   color: $white;
   cursor: pointer;
 }
+// tablet
+
+@media screen and (max-width: 992px) {
+  .header-logo-content {
+    width: 140px;
+    height: 42px;
+  }
+}

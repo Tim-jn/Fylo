@@ -45,26 +45,28 @@ export default function Footer() {
               <p className="contact-text">example@fylo.com</p>
             </div>
           </div>
-          <ul className="infos-links left-links">
-            <li className="info-link">About Us</li>
-            <li className="info-link">Jobs</li>
-            <li className="info-link">Press</li>
-            <li className="info-link">Blog</li>
-          </ul>
-          <ul className="infos-links right-links">
-            <li className="info-link">Contact Us</li>
-            <li className="info-link">Terms</li>
-            <li className="info-link">Privacy</li>
-          </ul>
-          <div className="footer-icons">
-            <div className="footer-icon facebook">
-              <FontAwesomeIcon icon={faFacebookF} />
-            </div>
-            <div className="footer-icon twitter">
-              <FontAwesomeIcon icon={faTwitter} />
-            </div>
-            <div className="footer-icon instagram">
-              <FontAwesomeIcon icon={faInstagram} />
+          <div className="footer-links">
+            <ul className="infos-links left-links">
+              <li className="info-link">About Us</li>
+              <li className="info-link">Jobs</li>
+              <li className="info-link">Press</li>
+              <li className="info-link">Blog</li>
+            </ul>
+            <ul className="infos-links right-links">
+              <li className="info-link">Contact Us</li>
+              <li className="info-link">Terms</li>
+              <li className="info-link">Privacy</li>
+            </ul>
+            <div className="footer-icons">
+              <div className="footer-icon facebook">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </div>
+              <div className="footer-icon twitter">
+                <FontAwesomeIcon icon={faTwitter} />
+              </div>
+              <div className="footer-icon instagram">
+                <FontAwesomeIcon icon={faInstagram} />
+              </div>
             </div>
           </div>
         </div>

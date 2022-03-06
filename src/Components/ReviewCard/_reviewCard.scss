@@ -47,3 +47,12 @@
   color: rgba(221, 221, 221, 0.842);
   margin-top: 2px;
 }
+
+// tablet
+
+@media screen and (max-width: 992px) {
+  .review-card {
+    width: 70%;
+    margin-top: 40px;
+  }
+}
