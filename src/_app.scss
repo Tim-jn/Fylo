@@ -284,6 +284,10 @@ body {
     width: 90%;
   }
 
+  .intro-section {
+    padding-top: 30px;
+  }
+
   .features-section {
     grid-template-columns: inherit;
     width: 90%;
@@ -311,5 +315,23 @@ body {
 
   .background-curvy img {
     height: 250px;
+  }
+}
+
+// smaller mobile
+
+@media screen and (max-width: 480px) {
+  .intro-img {
+    width: 300px;
+    height: 224px;
+  }
+
+  .company-image {
+    width: 300px;
+    height: 100%;
+  }
+
+  .company-infos-text {
+    margin-top: 30px;
   }
 }

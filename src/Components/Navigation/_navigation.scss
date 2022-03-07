@@ -75,3 +75,20 @@ a {
     padding: 30px 30px 70px 30px;
   }
 }
+
+// smaller mobile
+
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 30px 20px 70px 20px;
+  }
+
+  .header-logo-content {
+    width: 80px;
+    height: 25px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+}
